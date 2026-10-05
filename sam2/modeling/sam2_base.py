@@ -3,6 +3,9 @@
 
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
+#
+# Modified in the faster-edgetam fork (unofficial, not affiliated with Meta):
+# early check that image_size fits the spatial perceiver.
 
 import torch
 import torch.distributed

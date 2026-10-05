@@ -3,6 +3,9 @@
 
 # This source code is licensed under the license found in the
 # LICENSE file in the root directory of this source tree.
+#
+# Modified in the faster-edgetam fork (unofficial, not affiliated with Meta):
+# backbone feature sizes are derived from image_size.
 
 import logging
 

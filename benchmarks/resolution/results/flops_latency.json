@@ -1,0 +1,53 @@
+{
+ "1024": {
+  "image_size": 1024,
+  "encoder_gflops": 38.74910208,
+  "frame_gflops": 144.086101504,
+  "breakdown_gflops": {
+   "ImageEncoder": 37.138489344,
+   "Conv2d": 1.610612736,
+   "MemoryAttention": 89.061851136,
+   "PromptEncoder": 1.024e-06,
+   "MaskDecoder": 3.639282176,
+   "MLP": 0.000393216,
+   "MemoryEncoder": 11.60773632,
+   "PerceiverResampler": 1.0256384
+  },
+  "cpu_ms_per_frame": 1067.2388653884725,
+  "cpu_ms_per_frame_std": 24.36616949142147
+ },
+ "768": {
+  "image_size": 768,
+  "encoder_gflops": 21.796552704,
+  "frame_gflops": 72.919158272,
+  "breakdown_gflops": {
+   "ImageEncoder": 20.89058304,
+   "Conv2d": 0.905969664,
+   "MemoryAttention": 41.850765312,
+   "PromptEncoder": 1.024e-06,
+   "MaskDecoder": 2.068515328,
+   "MLP": 0.000393216,
+   "MemoryEncoder": 6.52935168,
+   "PerceiverResampler": 0.67239936
+  },
+  "cpu_ms_per_frame": 531.5548326470889,
+  "cpu_ms_per_frame_std": 10.653015844401555
+ },
+ "512": {
+  "image_size": 512,
+  "encoder_gflops": 9.687588864,
+  "frame_gflops": 30.138691072,
+  "breakdown_gflops": {
+   "ImageEncoder": 9.28493568,
+   "Conv2d": 0.402653184,
+   "MemoryAttention": 16.181624832,
+   "PromptEncoder": 1.024e-06,
+   "MaskDecoder": 0.946539008,
+   "MLP": 0.000393216,
+   "MemoryEncoder": 2.90193408,
+   "PerceiverResampler": 0.42008576
+  },
+  "cpu_ms_per_frame": 218.2304477054541,
+  "cpu_ms_per_frame_std": 6.557513215793245
+ }
+}

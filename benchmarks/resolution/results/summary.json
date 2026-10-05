@@ -1,0 +1,592 @@
+{
+ "summary": {
+  "768": {
+   "mean_iou": 0.9164535693886998,
+   "median_iou": 0.9456939202044903,
+   "frac_obj_ge_0.9": 0.7037037037037037,
+   "frac_obj_ge_0.8": 0.9629629629629629,
+   "mean_p10_frame_iou": 0.8556692379041072,
+   "mean_iou_frame0": 0.9502472529887372,
+   "cpu_speedup_geomean": 2.6761174942889765,
+   "by_size": {
+    "large (>5%)": {
+     "n": 6,
+     "mean_iou": 0.9439570462111838
+    },
+    "medium (1-5%)": {
+     "n": 11,
+     "mean_iou": 0.8824118345969919
+    },
+    "small (<1% of frame)": {
+     "n": 10,
+     "mean_iou": 0.9373973915660884
+    }
+   }
+  },
+  "512": {
+   "mean_iou": 0.8738579434335262,
+   "median_iou": 0.9036563201997037,
+   "frac_obj_ge_0.9": 0.5925925925925926,
+   "frac_obj_ge_0.8": 0.8518518518518519,
+   "mean_p10_frame_iou": 0.8064381615951562,
+   "mean_iou_frame0": 0.9140544633894393,
+   "cpu_speedup_geomean": 7.137262957369524,
+   "by_size": {
+    "large (>5%)": {
+     "n": 6,
+     "mean_iou": 0.9303040353119892
+    },
+    "medium (1-5%)": {
+     "n": 11,
+     "mean_iou": 0.8418098338569152
+    },
+    "small (<1% of frame)": {
+     "n": 10,
+     "mean_iou": 0.87524320884072
+    }
+   }
+  }
+ },
+ "per_object": [
+  {
+   "clip": "01_dog",
+   "obj_id": 1,
+   "label": "dog",
+   "area_frac": 0.023343912760416665,
+   "variant": "768",
+   "iou_frame0": 0.9387338325391422,
+   "miou": 0.9596696072847252,
+   "iou_p10": 0.9187790045154386
+  },
+  {
+   "clip": "01_dog",
+   "obj_id": 2,
+   "label": "woman",
+   "area_frac": 0.039990234375,
+   "variant": "768",
+   "iou_frame0": 0.9682841420710355,
+   "miou": 0.9714882119717834,
+   "iou_p10": 0.9609715699838574
+  },
+  {
+   "clip": "01_dog",
+   "obj_id": 3,
+   "label": "shoe",
+   "area_frac": 0.0020060221354166667,
+   "variant": "768",
+   "iou_frame0": 0.950592885375494,
+   "miou": 0.9061259803168933,
+   "iou_p10": 0.8471223021582733
+  },
+  {
+   "clip": "01_dog",
+   "obj_id": 1,
+   "label": "dog",
+   "area_frac": 0.023343912760416665,
+   "variant": "512",
+   "iou_frame0": 0.908600392413342,
+   "miou": 0.9065867373086968,
+   "iou_p10": 0.8748950662493787
+  },
+  {
+   "clip": "01_dog",
+   "obj_id": 2,
+   "label": "woman",
+   "area_frac": 0.039990234375,
+   "variant": "512",
+   "iou_frame0": 0.927495761444101,
+   "miou": 0.94232085402874,
+   "iou_p10": 0.9350691492821777
+  },
+  {
+   "clip": "01_dog",
+   "obj_id": 3,
+   "label": "shoe",
+   "area_frac": 0.0020060221354166667,
+   "variant": "512",
+   "iou_frame0": 0.8923933209647495,
+   "miou": 0.8840095372360197,
+   "iou_p10": 0.8410452682170754
+  },
+  {
+   "clip": "02_hummingbird",
+   "obj_id": 1,
+   "label": "hummingbird",
+   "area_frac": 0.016902669270833334,
+   "variant": "768",
+   "iou_frame0": 0.9682765151515151,
+   "miou": 0.8746991822101465,
+   "iou_p10": 0.6028606352344207
+  },
+  {
+   "clip": "02_hummingbird",
+   "obj_id": 2,
+   "label": "leaf",
+   "area_frac": 0.05101318359375,
+   "variant": "768",
+   "iou_frame0": 0.9807570977917981,
+   "miou": 0.9784590298638027,
+   "iou_p10": 0.9547820354952418
+  },
+  {
+   "clip": "02_hummingbird",
+   "obj_id": 1,
+   "label": "hummingbird",
+   "area_frac": 0.016902669270833334,
+   "variant": "512",
+   "iou_frame0": 0.8978849215374118,
+   "miou": 0.8494407841376538,
+   "iou_p10": 0.6379752455601777
+  },
+  {
+   "clip": "02_hummingbird",
+   "obj_id": 2,
+   "label": "leaf",
+   "area_frac": 0.05101318359375,
+   "variant": "512",
+   "iou_frame0": 0.9690068091101197,
+   "miou": 0.9682739484130817,
+   "iou_p10": 0.9386076327764307
+  },
+  {
+   "clip": "03_skateboarder",
+   "obj_id": 1,
+   "label": "skater",
+   "area_frac": 0.044266764322916666,
+   "variant": "768",
+   "iou_frame0": 0.9654800431499461,
+   "miou": 0.9730661509856497,
+   "iou_p10": 0.9460681324303086
+  },
+  {
+   "clip": "03_skateboarder",
+   "obj_id": 2,
+   "label": "tree",
+   "area_frac": 0.02686767578125,
+   "variant": "768",
+   "iou_frame0": 0.9885300332025355,
+   "miou": 0.9880397292319861,
+   "iou_p10": 0.9777364267145449
+  },
+  {
+   "clip": "03_skateboarder",
+   "obj_id": 1,
+   "label": "skater",
+   "area_frac": 0.044266764322916666,
+   "variant": "512",
+   "iou_frame0": 0.9497785651018601,
+   "miou": 0.9549836682784351,
+   "iou_p10": 0.9251774351472789
+  },
+  {
+   "clip": "03_skateboarder",
+   "obj_id": 2,
+   "label": "tree",
+   "area_frac": 0.02686767578125,
+   "variant": "512",
+   "iou_frame0": 0.9779888436604854,
+   "miou": 0.9820880884126182,
+   "iou_p10": 0.962050053709137
+  },
+  {
+   "clip": "06_pingpong",
+   "obj_id": 1,
+   "label": "player",
+   "area_frac": 0.05572509765625,
+   "variant": "768",
+   "iou_frame0": 0.9794166848498073,
+   "miou": 0.9601774836506951,
+   "iou_p10": 0.9372483827655367
+  },
+  {
+   "clip": "06_pingpong",
+   "obj_id": 2,
+   "label": "hand+paddle",
+   "area_frac": 0.0072021484375,
+   "variant": "768",
+   "iou_frame0": 0.9805013927576601,
+   "miou": 0.9396752228911281,
+   "iou_p10": 0.8751422010181505
+  },
+  {
+   "clip": "06_pingpong",
+   "obj_id": 3,
+   "label": "ball",
+   "area_frac": 0.0008626302083333333,
+   "variant": "768",
+   "iou_frame0": 0.9724770642201835,
+   "miou": 0.9456939202044903,
+   "iou_p10": 0.8840378164074413
+  },
+  {
+   "clip": "06_pingpong",
+   "obj_id": 1,
+   "label": "player",
+   "area_frac": 0.05572509765625,
+   "variant": "512",
+   "iou_frame0": 0.9607530774800869,
+   "miou": 0.958079119245646,
+   "iou_p10": 0.9305577525610587
+  },
+  {
+   "clip": "06_pingpong",
+   "obj_id": 2,
+   "label": "hand+paddle",
+   "area_frac": 0.0072021484375,
+   "variant": "512",
+   "iou_frame0": 0.9562602515035539,
+   "miou": 0.7952713898199546,
+   "iou_p10": 0.5956061988743341
+  },
+  {
+   "clip": "06_pingpong",
+   "obj_id": 3,
+   "label": "ball",
+   "area_frac": 0.0008626302083333333,
+   "variant": "512",
+   "iou_frame0": 0.9177489177489178,
+   "miou": 0.8799589995112252,
+   "iou_p10": 0.753343023255814
+  },
+  {
+   "clip": "08_driving",
+   "obj_id": 1,
+   "label": "car A",
+   "area_frac": 0.004142252604166666,
+   "variant": "768",
+   "iou_frame0": 0.946360153256705,
+   "miou": 0.9432792956574715,
+   "iou_p10": 0.9153564050918697
+  },
+  {
+   "clip": "08_driving",
+   "obj_id": 2,
+   "label": "car B",
+   "area_frac": 0.00416259765625,
+   "variant": "768",
+   "iou_frame0": 0.9494756911344138,
+   "miou": 0.8968410162941851,
+   "iou_p10": 0.8231835013119497
+  },
+  {
+   "clip": "08_driving",
+   "obj_id": 3,
+   "label": "car C",
+   "area_frac": 0.005659993489583333,
+   "variant": "768",
+   "iou_frame0": 0.9676284306826178,
+   "miou": 0.960712704990113,
+   "iou_p10": 0.9490582878715087
+  },
+  {
+   "clip": "08_driving",
+   "obj_id": 1,
+   "label": "car A",
+   "area_frac": 0.004142252604166666,
+   "variant": "512",
+   "iou_frame0": 0.8853681267474371,
+   "miou": 0.9102581791988761,
+   "iou_p10": 0.8939736243122991
+  },
+  {
+   "clip": "08_driving",
+   "obj_id": 2,
+   "label": "car B",
+   "area_frac": 0.00416259765625,
+   "variant": "512",
+   "iou_frame0": 0.9069557362240289,
+   "miou": 0.8115364364634203,
+   "iou_p10": 0.6846999226358906
+  },
+  {
+   "clip": "08_driving",
+   "obj_id": 3,
+   "label": "car C",
+   "area_frac": 0.005659993489583333,
+   "variant": "512",
+   "iou_frame0": 0.9241285030758715,
+   "miou": 0.9002359570290427,
+   "iou_p10": 0.8714345629934901
+  },
+  {
+   "clip": "16_robotarm",
+   "obj_id": 1,
+   "label": "robot arm",
+   "area_frac": 0.09109700520833333,
+   "variant": "768",
+   "iou_frame0": 0.8868231560961718,
+   "miou": 0.9449545860244327,
+   "iou_p10": 0.9286054350114106
+  },
+  {
+   "clip": "16_robotarm",
+   "obj_id": 2,
+   "label": "cage",
+   "area_frac": 0.03524169921875,
+   "variant": "768",
+   "iou_frame0": 0.8905232191636898,
+   "miou": 0.41754989539212195,
+   "iou_p10": 0.0
+  },
+  {
+   "clip": "16_robotarm",
+   "obj_id": 1,
+   "label": "robot arm",
+   "area_frac": 0.09109700520833333,
+   "variant": "512",
+   "iou_frame0": 0.8550302839612994,
+   "miou": 0.9050804623743247,
+   "iou_p10": 0.8747324398672099
+  },
+  {
+   "clip": "16_robotarm",
+   "obj_id": 2,
+   "label": "cage",
+   "area_frac": 0.03524169921875,
+   "variant": "512",
+   "iou_frame0": 0.8246583309101483,
+   "miou": 0.2684432727099347,
+   "iou_p10": 0.0
+  },
+  {
+   "clip": "19_cyclist",
+   "obj_id": 1,
+   "label": "cyclist",
+   "area_frac": 0.05701904296875,
+   "variant": "768",
+   "iou_frame0": 0.9000982869980343,
+   "miou": 0.8629059461222741,
+   "iou_p10": 0.7913379273697687
+  },
+  {
+   "clip": "19_cyclist",
+   "obj_id": 2,
+   "label": "road sign",
+   "area_frac": 0.0015950520833333333,
+   "variant": "768",
+   "iou_frame0": 0.975,
+   "miou": 0.9864004774173692,
+   "iou_p10": 0.9518205993225756
+  },
+  {
+   "clip": "19_cyclist",
+   "obj_id": 3,
+   "label": "helmet",
+   "area_frac": 0.0024698893229166668,
+   "variant": "768",
+   "iou_frame0": 0.84992784992785,
+   "miou": 0.8864733669076051,
+   "iou_p10": 0.842277818397601
+  },
+  {
+   "clip": "19_cyclist",
+   "obj_id": 1,
+   "label": "cyclist",
+   "area_frac": 0.05701904296875,
+   "variant": "512",
+   "iou_frame0": 0.8882296781232951,
+   "miou": 0.8684638518350296,
+   "iou_p10": 0.8411334056641908
+  },
+  {
+   "clip": "19_cyclist",
+   "obj_id": 2,
+   "label": "road sign",
+   "area_frac": 0.0015950520833333333,
+   "variant": "512",
+   "iou_frame0": 0.9420289855072463,
+   "miou": 0.9709973433936553,
+   "iou_p10": 0.9032842006785186
+  },
+  {
+   "clip": "19_cyclist",
+   "obj_id": 3,
+   "label": "helmet",
+   "area_frac": 0.0024698893229166668,
+   "variant": "512",
+   "iou_frame0": 0.8249641319942611,
+   "miou": 0.7931937147679954,
+   "iou_p10": 0.7686533844910419
+  },
+  {
+   "clip": "23_racecar",
+   "obj_id": 1,
+   "label": "red car",
+   "area_frac": 0.10323079427083333,
+   "variant": "768",
+   "iou_frame0": 0.9491460372289388,
+   "miou": 0.9639384443483768,
+   "iou_p10": 0.9407931846908325
+  },
+  {
+   "clip": "23_racecar",
+   "obj_id": 2,
+   "label": "silver car",
+   "area_frac": 0.04776611328125,
+   "variant": "768",
+   "iou_frame0": 0.9557919228851587,
+   "miou": 0.8990817671508466,
+   "iou_p10": 0.8407220631190017
+  },
+  {
+   "clip": "23_racecar",
+   "obj_id": 3,
+   "label": "yellow car",
+   "area_frac": 0.005452473958333333,
+   "variant": "768",
+   "iou_frame0": 0.9632082413539367,
+   "miou": 0.9605420602851822,
+   "iou_p10": 0.9436754203845779
+  },
+  {
+   "clip": "23_racecar",
+   "obj_id": 1,
+   "label": "red car",
+   "area_frac": 0.10323079427083333,
+   "variant": "512",
+   "iou_frame0": 0.904815272839697,
+   "miou": 0.9487426178691915,
+   "iou_p10": 0.9318750043379345
+  },
+  {
+   "clip": "23_racecar",
+   "obj_id": 2,
+   "label": "silver car",
+   "area_frac": 0.04776611328125,
+   "variant": "512",
+   "iou_frame0": 0.920479215244834,
+   "miou": 0.8955777194576845,
+   "iou_p10": 0.8543435691678123
+  },
+  {
+   "clip": "23_racecar",
+   "obj_id": 3,
+   "label": "yellow car",
+   "area_frac": 0.005452473958333333,
+   "variant": "512",
+   "iou_frame0": 0.9270231213872833,
+   "miou": 0.9033142107873087,
+   "iou_p10": 0.8528914354792949
+  },
+  {
+   "clip": "24_clownfish",
+   "obj_id": 1,
+   "label": "big fish",
+   "area_frac": 0.042826334635416664,
+   "variant": "768",
+   "iou_frame0": 0.984370586573769,
+   "miou": 0.9392610801063758,
+   "iou_p10": 0.8777640638456208
+  },
+  {
+   "clip": "24_clownfish",
+   "obj_id": 2,
+   "label": "mid fish",
+   "area_frac": 0.017313639322916668,
+   "variant": "768",
+   "iou_frame0": 0.9841047218326321,
+   "miou": 0.9762273541626325,
+   "iou_p10": 0.9650937005377472
+  },
+  {
+   "clip": "24_clownfish",
+   "obj_id": 3,
+   "label": "small fish",
+   "area_frac": 0.00584716796875,
+   "variant": "768",
+   "iou_frame0": 0.9494609164420486,
+   "miou": 0.9482298706964463,
+   "iou_p10": 0.9273860809480972
+  },
+  {
+   "clip": "24_clownfish",
+   "obj_id": 1,
+   "label": "big fish",
+   "area_frac": 0.042826334635416664,
+   "variant": "512",
+   "iou_frame0": 0.9696322436849926,
+   "miou": 0.9431953852961892,
+   "iou_p10": 0.8897655995369868
+  },
+  {
+   "clip": "24_clownfish",
+   "obj_id": 2,
+   "label": "mid fish",
+   "area_frac": 0.017313639322916668,
+   "variant": "512",
+   "iou_frame0": 0.9627401064568387,
+   "miou": 0.951190202101564,
+   "iou_p10": 0.9208682581354631
+  },
+  {
+   "clip": "24_clownfish",
+   "obj_id": 3,
+   "label": "small fish",
+   "area_frac": 0.00584716796875,
+   "variant": "512",
+   "iou_frame0": 0.8848786558805227,
+   "miou": 0.9036563201997037,
+   "iou_p10": 0.8395721694741549
+  },
+  {
+   "clip": "bedroom",
+   "obj_id": 1,
+   "label": "girl",
+   "area_frac": 0.06494140625,
+   "variant": "768",
+   "iou_frame0": 0.9384293965835074,
+   "miou": 0.9533067872575218,
+   "iou_p10": 0.9200393531115101
+  },
+  {
+   "clip": "bedroom",
+   "obj_id": 2,
+   "label": "boy",
+   "area_frac": 0.037520345052083334,
+   "variant": "768",
+   "iou_frame0": 0.9592526126886942,
+   "miou": 0.8727314090818576,
+   "iou_p10": 0.7612671439503313
+  },
+  {
+   "clip": "bedroom",
+   "obj_id": 3,
+   "label": "pillow",
+   "area_frac": 0.030387369791666667,
+   "variant": "768",
+   "iou_frame0": 0.914024916738621,
+   "miou": 0.8347157929887861,
+   "iou_p10": 0.8199399317232754
+  },
+  {
+   "clip": "bedroom",
+   "obj_id": 1,
+   "label": "girl",
+   "area_frac": 0.06494140625,
+   "variant": "512",
+   "iou_frame0": 0.9223838801972363,
+   "miou": 0.9331842121346615,
+   "iou_p10": 0.8948114434717106
+  },
+  {
+   "clip": "bedroom",
+   "obj_id": 2,
+   "label": "boy",
+   "area_frac": 0.037520345052083334,
+   "variant": "512",
+   "iou_frame0": 0.9025177533892834,
+   "miou": 0.7647306392597012,
+   "iou_p10": 0.5643870317427829
+  },
+  {
+   "clip": "bedroom",
+   "obj_id": 3,
+   "label": "pillow",
+   "area_frac": 0.030387369791666667,
+   "variant": "512",
+   "iou_frame0": 0.8757256249259566,
+   "miou": 0.8013508214348509,
+   "iou_p10": 0.7930774854475748
+  }
+ ]
+}

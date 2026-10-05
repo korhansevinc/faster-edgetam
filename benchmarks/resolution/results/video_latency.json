@@ -1,0 +1,86 @@
+{
+ "video": "clips/bedroom_512: 60 frames of notebooks/videos/bedroom at 512x512",
+ "prompt": "box 160 0 267 379 on frame 0, one object",
+ "metric": "median ms per tracked frame after the memory bank is full",
+ "upstream": "facebookresearch/EdgeTAM 7711e01 with configs/edgetam.yaml",
+ "cpu_i7-12800HX_2_threads": {
+  "upstream_1024": 1131.9,
+  "fork_1024": 1123.9,
+  "fork_768": 598.9,
+  "fork_512": 242.5
+ },
+ "cpu_i7-12800HX_16_threads": {
+  "upstream_1024": {
+   "median": 899.4,
+   "runs": [
+    894.3,
+    943.4,
+    899.4
+   ]
+  },
+  "fork_1024": {
+   "median": 931.9,
+   "runs": [
+    868.9,
+    1061.6,
+    931.9
+   ]
+  },
+  "fork_768": {
+   "median": 496.9,
+   "runs": [
+    496.9,
+    496.4,
+    534.7
+   ]
+  },
+  "fork_512": {
+   "median": 270.5,
+   "runs": [
+    314.6,
+    256.1,
+    270.5
+   ]
+  }
+ },
+ "gpu_rtx_a4500_laptop_bf16": {
+  "upstream_1024": {
+   "median": 31.0,
+   "runs": [
+    30.7,
+    31.5,
+    31.0
+   ]
+  },
+  "fork_1024": {
+   "median": 30.8,
+   "runs": [
+    30.8,
+    28.6,
+    31.2
+   ]
+  },
+  "fork_768": {
+   "median": 21.6,
+   "runs": [
+    21.6,
+    21.2,
+    22.0
+   ]
+  },
+  "fork_512": {
+   "median": 20.6,
+   "runs": [
+    20.5,
+    20.6,
+    20.9
+   ]
+  }
+ },
+ "gpu_note": "an earlier, non-interleaved session on the same video gave 26.3 / 16.7 / 14.2 ms for fork 1024 / 768 / 512 (1.85x); its upstream run was the first on a cold GPU and is not comparable",
+ "mask_iou_vs_upstream_cpu": {
+  "fork_1024": 1.0,
+  "fork_768": 0.953,
+  "fork_512": 0.929
+ }
+}

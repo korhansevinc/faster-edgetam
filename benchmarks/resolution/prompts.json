@@ -1,0 +1,292 @@
+{
+ "01_dog": [
+  {
+   "obj_id": 1,
+   "label": "dog",
+   "bbox_xywh": [
+    180,
+    254,
+    100,
+    110
+   ]
+  },
+  {
+   "obj_id": 2,
+   "label": "woman",
+   "bbox_xywh": [
+    92,
+    146,
+    98,
+    224
+   ]
+  },
+  {
+   "obj_id": 3,
+   "label": "shoe",
+   "bbox_xywh": [
+    100,
+    346,
+    28,
+    23
+   ]
+  }
+ ],
+ "02_hummingbird": [
+  {
+   "obj_id": 1,
+   "label": "hummingbird",
+   "bbox_xywh": [
+    165,
+    98,
+    115,
+    110
+   ]
+  },
+  {
+   "obj_id": 2,
+   "label": "leaf",
+   "bbox_xywh": [
+    356,
+    0,
+    155,
+    119
+   ]
+  }
+ ],
+ "03_skateboarder": [
+  {
+   "obj_id": 1,
+   "label": "skater",
+   "bbox_xywh": [
+    64,
+    84,
+    119,
+    222
+   ]
+  },
+  {
+   "obj_id": 2,
+   "label": "tree",
+   "bbox_xywh": [
+    263,
+    268,
+    104,
+    92
+   ]
+  }
+ ],
+ "06_pingpong": [
+  {
+   "obj_id": 1,
+   "label": "player",
+   "bbox_xywh": [
+    304,
+    93,
+    112,
+    254
+   ]
+  },
+  {
+   "obj_id": 2,
+   "label": "hand+paddle",
+   "bbox_xywh": [
+    304,
+    193,
+    62,
+    53
+   ]
+  },
+  {
+   "obj_id": 3,
+   "label": "ball",
+   "bbox_xywh": [
+    316,
+    315,
+    17,
+    22
+   ]
+  }
+ ],
+ "08_driving": [
+  {
+   "obj_id": 1,
+   "label": "car A",
+   "bbox_xywh": [
+    283,
+    329,
+    28,
+    41
+   ]
+  },
+  {
+   "obj_id": 2,
+   "label": "car B",
+   "bbox_xywh": [
+    207,
+    336,
+    32,
+    38
+   ]
+  },
+  {
+   "obj_id": 3,
+   "label": "car C",
+   "bbox_xywh": [
+    122,
+    312,
+    39,
+    58
+   ]
+  }
+ ],
+ "16_robotarm": [
+  {
+   "obj_id": 1,
+   "label": "robot arm",
+   "bbox_xywh": [
+    108,
+    84,
+    212,
+    214
+   ]
+  },
+  {
+   "obj_id": 2,
+   "label": "cage",
+   "bbox_xywh": [
+    72,
+    280,
+    138,
+    132
+   ]
+  }
+ ],
+ "19_cyclist": [
+  {
+   "obj_id": 1,
+   "label": "cyclist",
+   "bbox_xywh": [
+    146,
+    210,
+    146,
+    269
+   ]
+  },
+  {
+   "obj_id": 2,
+   "label": "road sign",
+   "bbox_xywh": [
+    420,
+    178,
+    24,
+    32
+   ]
+  },
+  {
+   "obj_id": 3,
+   "label": "helmet",
+   "bbox_xywh": [
+    240,
+    212,
+    27,
+    36
+   ]
+  }
+ ],
+ "23_racecar": [
+  {
+   "obj_id": 1,
+   "label": "red car",
+   "bbox_xywh": [
+    154,
+    240,
+    200,
+    196
+   ]
+  },
+  {
+   "obj_id": 2,
+   "label": "silver car",
+   "bbox_xywh": [
+    38,
+    230,
+    165,
+    122
+   ]
+  },
+  {
+   "obj_id": 3,
+   "label": "yellow car",
+   "bbox_xywh": [
+    202,
+    207,
+    48,
+    41
+   ]
+  }
+ ],
+ "24_clownfish": [
+  {
+   "obj_id": 1,
+   "label": "big fish",
+   "bbox_xywh": [
+    39,
+    277,
+    109,
+    141
+   ]
+  },
+  {
+   "obj_id": 2,
+   "label": "mid fish",
+   "bbox_xywh": [
+    153,
+    304,
+    62,
+    100
+   ]
+  },
+  {
+   "obj_id": 3,
+   "label": "small fish",
+   "bbox_xywh": [
+    257,
+    249,
+    38,
+    75
+   ]
+  }
+ ],
+ "bedroom": [
+  {
+   "obj_id": 1,
+   "label": "girl",
+   "bbox_xywh": [
+    164,
+    0,
+    112,
+    354
+   ]
+  },
+  {
+   "obj_id": 2,
+   "label": "boy",
+   "bbox_xywh": [
+    66,
+    118,
+    92,
+    244
+   ]
+  },
+  {
+   "obj_id": 3,
+   "label": "pillow",
+   "bbox_xywh": [
+    282,
+    257,
+    98,
+    160
+   ]
+  }
+ ]
+}
