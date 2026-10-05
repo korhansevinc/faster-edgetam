@@ -1,7 +1,7 @@
 # EdgeTAM: On-Device Track Anything Model
 
 > [!NOTE]
-> **faster-edgetam** is an unofficial fork of [facebookresearch/EdgeTAM](https://github.com/facebookresearch/EdgeTAM) and is not affiliated with Meta. It adds two changes, both submitted upstream:
+> **faster-edgetam** is an unofficial fork of [facebookresearch/EdgeTAM](https://github.com/facebookresearch/EdgeTAM) and is not affiliated with Meta. It adds two changes, both submitted upstream ([#<N1>](https://github.com/facebookresearch/EdgeTAM/pull/<N1>), [#<N2>](https://github.com/facebookresearch/EdgeTAM/pull/<N2>)):
 > - **Multi-object fix:** tracking two or more objects no longer crashes ([#15](https://github.com/facebookresearch/EdgeTAM/issues/15)).
 > - **Lower input resolutions:** the same checkpoint runs at 768 or 512 input via `configs/edgetam_768.yaml` and `configs/edgetam_512.yaml`, instead of upsampling every frame to 1024. On a 512x512 video, `edgetam_512.yaml` tracks 4.7x faster than upstream EdgeTAM on a 2-thread CPU and 1.5-1.9x faster on a laptop GPU, at some cost in accuracy (see [Lower input resolutions](#lower-input-resolutions)).
 >
